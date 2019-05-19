@@ -1,0 +1,50 @@
+<s:Envelope xmlns:s = "http://schemas.xmlsoap.org/soap/envelope/">
+                        <s:Header>
+                            <h:requestHeader
+                                xmlns:h = "http://grupobancolombia.com/ents/SOI/MessageFormat/V2.1"
+                                xmlns = "http://grupobancolombia.com/ents/SOI/MessageFormat/V2.1"
+                                xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+                                xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance">
+                                <systemId xmlns = "">AW1285001</systemId>
+                                <messageId xmlns = "">LibreInversion32145789411111</messageId>
+                                <userId xmlns = "">
+                                    <userName>Default</userName>
+                                </userId>
+                                <destination xmlns = "">
+                                    <name>DesembolsoCreditoConsumo</name>
+                                    <namespace>http://grupobancolombia.com/intf/Producto/CreditoConsumo/DesembolsoCreditoConsumo/V1.0</namespace>
+                                    <operation>desembolsarCreditoConsumo</operation>
+                                </destination>
+                            </h:requestHeader>
+                        </s:Header>
+                        <s:Body xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd = "http://www.w3.org/2001/XMLSchema">
+                            <desembolsarCreditoConsumo xmlns = "http://grupobancolombia.com/intf/Producto/CreditoConsumo/DesembolsoCreditoConsumo/V1.0">
+                                <canal xmlns = "">BIZ</canal>
+                                <identificadorDesembolso xmlns = "">VDI_2019_634</identificadorDesembolso>
+                                <numeroRastreo xmlns = "">7031009</numeroRastreo>
+                                <identificacionCliente xmlns = "">
+                                    <tipoDocumento>FS001</tipoDocumento>
+                                    <numeroDocumento>18062994153</numeroDocumento>
+                                </identificacionCliente>
+                                <plan xmlns = "">P59</plan>
+                                <monto xmlns = "">1000000</monto>
+                                <plazo xmlns = "">36</plazo>
+                                <tasa xmlns = "">0.22319</tasa>
+                                <tasaSeguroVida xmlns = "">0.01872</tasaSeguroVida>
+                                <cuentaDesembolso xmlns = "">
+                                    <tipo>2</tipo>
+                                    <numero>40674153007</numero>
+                                </cuentaDesembolso>
+                                <cuentaDebitoAutomatico xmlns = "">
+                                    <tipo>2</tipo>
+                                    <numero>40674153007</numero>
+                                </cuentaDebitoAutomatico>
+                                <oficinaOrigen xmlns = "">0</oficinaOrigen>
+                                <oficial xmlns = "">53259</oficial>
+                                <numeroSecuenciaLimite xmlns = "">0</numeroSecuenciaLimite>
+                                <indicadorGarantia xmlns = "">N</indicadorGarantia>
+                                <indicadorReverso xmlns = "">N</indicadorReverso>
+                                <indicadorDebitoAutomatico xmlns = "">Y</indicadorDebitoAutomatico>
+                            </desembolsarCreditoConsumo>
+                        </s:Body>
+                    </s:Envelope>
